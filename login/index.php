@@ -9,7 +9,7 @@ if(isset($_SESSION['session']))
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>INFORMATICA</title>
+	<title>proyecto</title>
 	<meta charset="utf-8">
 	<link type="text/css" href="./css/style.css" rel="stylesheet" />
 </head>
@@ -17,7 +17,7 @@ if(isset($_SESSION['session']))
 <body>
 	
 	<div id="registrar">
-          	<a href="./php/registro.php"</a>INGRESAR</a>
+          	<a href="./php/registro.php"</a>entrar</a>
     </div> <!-- fin opcion-->
     
 	<div id="envoltura">
@@ -32,17 +32,17 @@ if(isset($_SESSION['session']))
 					<!--A saber, el atributo for funciona como el id.-->
 					<!--ejemplo <label for="usuario">Usuario:</label>-->
 					<!--required es nuevo en html5, si el campo está vacío te avisa, pero cuidado, no valida la información-->
-					<p><label >MIEMBRO NUEVO:</label></p>
+					<p><label >nuevo miembro:</label></p>
 						<input name="usuario" type="text" id="usuario" placeholder="Ingresa Usuario" autofocus="" required=""></p>
 					
-					<p><label>CLAVE:</label></p>
+					<p><label>Nip:</label></p>
 						<input name="contrasenia" type="password" id="contrasenia" placeholder="Ingresa Password" required=""></p>
 					
 					<p id="bot"><input type="submit" id="submit" name="submit" value="Ingresar" class="boton"></p>
 				</form>
 			</div><!--fin cuerpo-->
 	
-			<div id="pie">Ingresar</div>
+			<div id="pie">Entrar</div>
 		</div><!-- fin contenedor -->
 
 	</div><!--fin envoltura-->
