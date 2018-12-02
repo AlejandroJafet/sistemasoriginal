@@ -9,7 +9,7 @@ if(isset($_entrar['session']))
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>sistemas</title>
+	<title>sistemas de informacion</title>
 	<meta charset="utf-8">
 	<link type="text/css" href="./css/style.css" rel="stylesheet" />
 </head>
