@@ -42,7 +42,7 @@ if(isset($_Empezar['session']))
 				</form>
 			</div><!--fin cuerpo-->
 	
-			<div id="pie">pertenecer</div>
+			<div id="pie">formar parte</div>
 		</div><!-- fin contenedor -->
 
 	</div><!--fin envoltura-->
