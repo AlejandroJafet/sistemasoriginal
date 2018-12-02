@@ -1,6 +1,6 @@
 <?php
 require_once("./php/myDBC.php");
-if(isset($_INICIAR['session']))
+if(isset($_entrar['session']))
 {
 	header("location:principal.php");
 	exit;
