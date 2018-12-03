@@ -34,7 +34,7 @@ if(isset($_SESSION['session']))
 			<div id="cuerpo">
 				<form id="form-login" action="./php/login.php" method="post" autocomplete="off">
 
-					<p><label >Usuario:</label></p>
+					<p><label >MIEMBRO</label></p>
 						<input name="usuario" type="text" id="usuario" placeholder="Ingresa Usuario" autofocus="" required=""></p>
 					
 					<p><label>CLAVE</label></p>
