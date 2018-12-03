@@ -6,11 +6,10 @@ if(isset($_SESSION['session']))
 	exit;
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>System</title>
+	<title>INFTEC</title>
 	<meta charset="utf-8">
 	<link type="text/css" href="./css/style.css" rel="stylesheet" />
 </head>
@@ -18,7 +17,7 @@ if(isset($_SESSION['session']))
 <body>
 	
 	<div id="registrar">
-          	<a href="./php/registro.php"</a>INGRESAR</a>
+          	<a href="./php/registro.php"</a>Registrarse</a>
     </div> <!-- fin opcion-->
     
 	<div id="envoltura">
@@ -32,18 +31,18 @@ if(isset($_SESSION['session']))
 				<form id="form-login" action="./php/login.php" method="post" autocomplete="off">
 					<!--A saber, el atributo for funciona como el id.-->
 					<!--ejemplo <label for="usuario">Usuario:</label>-->
-					<!--required es nuevo en html5, si el campo está vacío te avisa, pero cuidado, no valida la información-->
-					<p><label >USUARIO NUEVO:</label></p>
+					<!--required es nuevo en html5, si el campo estÃ¡ vacÃ­o te avisa, pero cuidado, no valida la informaciÃ³n-->
+					<p><label >Usuario:</label></p>
 						<input name="usuario" type="text" id="usuario" placeholder="Ingresa Usuario" autofocus="" required=""></p>
 					
-					<p><label>CONTRASEÑA</label></p>
+					<p><label>ContraseÃ±a:</label></p>
 						<input name="contrasenia" type="password" id="contrasenia" placeholder="Ingresa Password" required=""></p>
 					
 					<p id="bot"><input type="submit" id="submit" name="submit" value="Ingresar" class="boton"></p>
 				</form>
 			</div><!--fin cuerpo-->
 	
-			<div id="pie">REGISTRAR</div>
+			<div id="pie">INFTEC</div>
 		</div><!-- fin contenedor -->
 
 	</div><!--fin envoltura-->
