@@ -37,7 +37,7 @@ if(isset($_SESSION['session']))
 					<p><label >MIEMBRO</label></p>
 						<input name="usuario" type="text" id="usuario" placeholder="Ingresa Usuario" autofocus="" required=""></p>
 					
-					<p><label>CLAVE</label></p>
+					<p><label>PASSWORD</label></p>
 					<!--required es nuevo en html5, si el campo está vacío te avisa, pero cuidado, no valida la información-->
 					<p><label >ordinario de sistemas:</label></p>
 						<input name="usuario" type="text" id="usuario" placeholder="Ingresa Usuario" autofocus="" required=""></p>
