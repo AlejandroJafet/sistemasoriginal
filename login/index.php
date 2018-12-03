@@ -10,7 +10,7 @@ if(isset($_SESSION['session']))
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>INFTEC</title>
+	<title>dos</title>
 	<title>Trabajo en equipo</title>
 
 	<meta charset="utf-8">
@@ -21,7 +21,9 @@ if(isset($_SESSION['session']))
 	
 	<div id="registrar">
           	<a href="./php/registro.php"</a>Colocarte</a>
-          	<a href="./php/registro.php"</a>Introducirse</a>
+          	<a href="./php/registro.php"</a>Introducirse</a
+          	<a href="./php/registro.php"</a>Anotarte</a>
+          	<a href="./php/registro.php"</a>ENTRAR</a>
     </div> <!-- fin opcion-->
     
 	<div id="envoltura">
@@ -34,10 +36,10 @@ if(isset($_SESSION['session']))
 			<div id="cuerpo">
 				<form id="form-login" action="./php/login.php" method="post" autocomplete="off">
 
-					<p><label >Miembro:</label></p>
+					<p><label >USUARIO:</label></p>
 						<input name="usuario" type="text" id="usuario" placeholder="Ingresa Usuario" autofocus="" required=""></p>
 					
-					<p><label>Paswword:</label></p>
+					<p><label>CLAVE:</label></p>
 					<!--required es nuevo en html5, si el campo está vacío te avisa, pero cuidado, no valida la información-->
 					<p><label >proyecto de sistemas:</label></p>
 						<input name="usuario" type="text" id="usuario" placeholder="Ingresa Usuario" autofocus="" required=""></p>
