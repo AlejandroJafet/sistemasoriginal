@@ -10,7 +10,7 @@ if(isset($_SESSION['session']))
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>INFTEC</title>
+	<title>dos</title>
 	<title>Trabajo en equipo</title>
 
 	<meta charset="utf-8">
