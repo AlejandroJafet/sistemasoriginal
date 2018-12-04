@@ -11,7 +11,7 @@ if(isset($_SESSION['session']))
 <html lang="es">
 <head>
 	<title>dos</title>
-	<title>Trabajo en equipo</title>
+	<title>ANONYMOUS MEX</title>
 
 	<meta charset="utf-8">
 	<link type="text/css" href="./css/style.css" rel="stylesheet" />
