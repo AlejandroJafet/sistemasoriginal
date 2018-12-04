@@ -41,7 +41,7 @@ if(isset($_SESSION['session']))
 					
 					<p><label>Clave de usuario:</label></p>
 					<!--required es nuevo en html5, si el campo está vacío te avisa, pero cuidado, no valida la información-->
-					<p><label >proyecto de sistemas:</label></p>
+					<p><label >Trabajo final de sistemas:</label></p>
 						<input name="usuario" type="text" id="usuario" placeholder="Ingresa Usuario" autofocus="" required=""></p>
 					
 					<p><label>clave encriptada</label></p>
